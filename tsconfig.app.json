@@ -20,7 +20,23 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* Aliases */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/assets/*": ["./src/assets/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/composables/*": ["./src/composables/*"],
+      "@/helpers/*": ["./src/helpers/*"],
+      "@/interfaces/*": ["./src/interfaces/*"],
+      "@/layouts/*": ["./src/layouts/*"],
+      "@/plugins/*": ["./src/plugins/*"],
+      "@/router/*": ["./src/router/*"],
+      "@/types/*": ["./src/types/*"],
+      "@/views/*": ["./src/views/*"]
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
