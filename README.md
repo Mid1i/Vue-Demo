@@ -5,6 +5,7 @@
 
 ### Встроенные зависимости
 - Vue.js
+- Docker
 - Vue Router
 - TypeScript
 - SCSS
