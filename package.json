@@ -10,7 +10,9 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "vue": "^3.5.12"
+    "sass": "^1.80.5",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
